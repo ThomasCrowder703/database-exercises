@@ -1,0 +1,13 @@
+USE codeup_test_db;
+DROP TABLE IF EXISTS albums;
+
+CREATE TABLE IF NOT EXISTS albums (
+id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+artist VARCHAR(45),
+name VARCHAR(45),
+release_date INT(4) NOT NULL,
+sales FLOAT,
+genre VARCHAR(30),
+PRIMARY KEY (id)
+);
+SHOW TABLES;
